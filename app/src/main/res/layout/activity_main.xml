@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lavan_32.tamrin6.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:id="@+id/ho"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/colon"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:id="@+id/colon"
+        android:textSize="40dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:id="@+id/minute"
+        android:layout_toRightOf="@+id/colon"
+        android:layout_centerInParent="true"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/b1"
+
+        />
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12h"
+        android:id="@+id/rd1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24h"
+        android:id="@+id/rd2"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+
+        />
+    </RadioGroup>
+</RelativeLayout>
